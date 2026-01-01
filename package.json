@@ -1,0 +1,33 @@
+{
+  "name": "bitinto-chan",
+  "version": "1.0.0",
+  "description": "Discord Bot - AI Chat, RPG Stories, Social Links",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "rpg"
+  ],
+  "author": "Vitor Tinelli",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "groq-sdk": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

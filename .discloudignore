@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output (included for Discloud)
+# dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Documentation
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# Python files (old version)
+*.py
+__pycache__/
+*.pyc
+*.db
